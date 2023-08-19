@@ -914,6 +914,11 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pt-16 {
   padding-top: 4rem;
 }
@@ -936,6 +941,14 @@ video {
 
 .pt-32 {
   padding-top: 8rem;
+}
+
+.pb-32 {
+  padding-bottom: 8rem;
+}
+
+.pb-28 {
+  padding-bottom: 7rem;
 }
 
 .text-center {
@@ -1029,12 +1042,21 @@ video {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
+.text-gray-100 {
+  --tw-text-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-text-opacity));
+}
+
 .opacity-50 {
   opacity: 0.5;
 }
 
 .opacity-\[\.8\] {
   opacity: .8;
+}
+
+.opacity-\[\.35\] {
+  opacity: .35;
 }
 
 .shadow-md {
@@ -1090,6 +1112,10 @@ video {
 
   .md\:ml-9 {
     margin-left: 2.25rem;
+  }
+
+  .md\:mb-4 {
+    margin-bottom: 1rem;
   }
 
   .md\:flex {
